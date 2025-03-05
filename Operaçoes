@@ -1,0 +1,62 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMLtdXv+SEtdAhpnPsIuvZH",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/wendersonaraujo/python-operacoes/blob/main/Opera%C3%A7oes\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n = int(input('digite um numero !'))\n",
+        "d = n * 2\n",
+        "t = n * 3\n",
+        "r = n ** (1/2)\n",
+        "print('O dobro de {} vale {}.'.format(n, d))\n",
+        "print('O triplo de {} vale {}.'.format(n, t))\n",
+        "print('A raiz quadrada de {} e igual a {}.'.format(n, r))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "97G-cGKK4Ih2",
+        "outputId": "183629a5-ac7f-4fca-9278-6951d7a37721"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um numero !6\n",
+            "O dobro de 6 vale 12.\n",
+            "O triplo de 6 vale 18.\n",
+            "A raiz quadrada de 6 e igual a 2.449489742783178.\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
